@@ -6,7 +6,14 @@
 
     <groupId>site.galaio.jsched</groupId>
     <artifactId>JSched</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>JSched-web</module>
+        <module>JSched-client</module>
+        <module>JSched-tester</module>
+        <module>JSched-biz</module>
+    </modules>
 
 
 </project>
